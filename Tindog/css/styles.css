@@ -1,0 +1,127 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+h1,
+h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+p {
+  color: grey;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: lighter;
+}
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+.titile-img {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.testimonials-image {
+  width: 10%;
+  border-radius: 200%;
+  margin: 20px;
+}
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 14%;
+  margin: 20px 20px 15px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+#cta {
+  color: #fff;
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .titile-img {
+    position: static;
+    transform: rotate(360deg);
+  }
+}
